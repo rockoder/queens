@@ -13,7 +13,7 @@
 1. The current implementation extends the solution provided by Robert Sedgewick at his [course](https://introcs.cs.princeton.edu/java/23recursion/Queens.java.html).
 1. Appropriate minimal changes are made to the implementation to introduce the additional non-collinear condition.
 1. Additionally, few unit tests are added to test the solution with different inputs.
-1. Due to nature of the problem, focus is more on the algorithm than on the OO design principles.
+1. Due to the nature of the problem, focus is more on the algorithm than on the OO design principles. Hence many static functions can be found in the implementation. Program can be re-designed by following better design principles however this could dilute the focus from the underlying algorithm.
 1. Program print out all solutions on the console. Additionally it prints the total number of solutions found.
 1. As mentioned by the original implementation, this program implicitly enumerates all n^n possible placements (instead of n!), but the backtracing prunes off most of them, so it's not necessarily worth the extra complication of enumerating only permutations.
 
